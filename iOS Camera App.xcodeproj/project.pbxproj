@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B75CC062C84A8D800124F62 /* iOS_Camera_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75CC052C84A8D800124F62 /* iOS_Camera_AppApp.swift */; };
+		1B75CC082C84A8D800124F62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75CC072C84A8D800124F62 /* ContentView.swift */; };
+		1B75CC0A2C84A90200124F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B75CC092C84A90200124F62 /* Assets.xcassets */; };
+		1B75CC0E2C84A90200124F62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B75CC0D2C84A90200124F62 /* Preview Assets.xcassets */; };
+		1B75CC182C84A90800124F62 /* iOS_Camera_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75CC172C84A90800124F62 /* iOS_Camera_AppTests.swift */; };
+		1B75CC222C84A90800124F62 /* iOS_Camera_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75CC212C84A90800124F62 /* iOS_Camera_AppUITests.swift */; };
+		1B75CC242C84A90800124F62 /* iOS_Camera_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75CC232C84A90800124F62 /* iOS_Camera_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B75CC142C84A90800124F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B75CBFA2C84A8D700124F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B75CC012C84A8D800124F62;
+			remoteInfo = "iOS Camera App";
+		};
+		1B75CC1E2C84A90800124F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B75CBFA2C84A8D700124F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B75CC012C84A8D800124F62;
+			remoteInfo = "iOS Camera App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B75CC022C84A8D800124F62 /* iOS Camera App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Camera App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B75CC052C84A8D800124F62 /* iOS_Camera_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Camera_AppApp.swift; sourceTree = "<group>"; };
+		1B75CC072C84A8D800124F62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B75CC092C84A90200124F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B75CC0B2C84A90200124F62 /* iOS_Camera_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS_Camera_App.entitlements; sourceTree = "<group>"; };
+		1B75CC0D2C84A90200124F62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B75CC132C84A90800124F62 /* iOS Camera AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Camera AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B75CC172C84A90800124F62 /* iOS_Camera_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Camera_AppTests.swift; sourceTree = "<group>"; };
+		1B75CC1D2C84A90800124F62 /* iOS Camera AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Camera AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B75CC212C84A90800124F62 /* iOS_Camera_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Camera_AppUITests.swift; sourceTree = "<group>"; };
+		1B75CC232C84A90800124F62 /* iOS_Camera_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Camera_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B75CBFF2C84A8D800124F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75CC102C84A90800124F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75CC1A2C84A90800124F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B75CBF92C84A8D700124F62 = {
+			isa = PBXGroup;
+			children = (
+				1B75CC042C84A8D800124F62 /* iOS Camera App */,
+				1B75CC162C84A90800124F62 /* iOS Camera AppTests */,
+				1B75CC202C84A90800124F62 /* iOS Camera AppUITests */,
+				1B75CC032C84A8D800124F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B75CC032C84A8D800124F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B75CC022C84A8D800124F62 /* iOS Camera App.app */,
+				1B75CC132C84A90800124F62 /* iOS Camera AppTests.xctest */,
+				1B75CC1D2C84A90800124F62 /* iOS Camera AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B75CC042C84A8D800124F62 /* iOS Camera App */ = {
+			isa = PBXGroup;
+			children = (
+				1B75CC052C84A8D800124F62 /* iOS_Camera_AppApp.swift */,
+				1B75CC072C84A8D800124F62 /* ContentView.swift */,
+				1B75CC092C84A90200124F62 /* Assets.xcassets */,
+				1B75CC0B2C84A90200124F62 /* iOS_Camera_App.entitlements */,
+				1B75CC0C2C84A90200124F62 /* Preview Content */,
+			);
+			path = "iOS Camera App";
+			sourceTree = "<group>";
+		};
+		1B75CC0C2C84A90200124F62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B75CC0D2C84A90200124F62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B75CC162C84A90800124F62 /* iOS Camera AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B75CC172C84A90800124F62 /* iOS_Camera_AppTests.swift */,
+			);
+			path = "iOS Camera AppTests";
+			sourceTree = "<group>";
+		};
+		1B75CC202C84A90800124F62 /* iOS Camera AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B75CC212C84A90800124F62 /* iOS_Camera_AppUITests.swift */,
+				1B75CC232C84A90800124F62 /* iOS_Camera_AppUITestsLaunchTests.swift */,
+			);
+			path = "iOS Camera AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B75CC012C84A8D800124F62 /* iOS Camera App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B75CC272C84A90900124F62 /* Build configuration list for PBXNativeTarget "iOS Camera App" */;
+			buildPhases = (
+				1B75CBFE2C84A8D800124F62 /* Sources */,
+				1B75CBFF2C84A8D800124F62 /* Frameworks */,
+				1B75CC002C84A8D800124F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Camera App";
+			productName = "iOS Camera App";
+			productReference = 1B75CC022C84A8D800124F62 /* iOS Camera App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B75CC122C84A90800124F62 /* iOS Camera AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B75CC2A2C84A90900124F62 /* Build configuration list for PBXNativeTarget "iOS Camera AppTests" */;
+			buildPhases = (
+				1B75CC0F2C84A90800124F62 /* Sources */,
+				1B75CC102C84A90800124F62 /* Frameworks */,
+				1B75CC112C84A90800124F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B75CC152C84A90800124F62 /* PBXTargetDependency */,
+			);
+			name = "iOS Camera AppTests";
+			productName = "iOS Camera AppTests";
+			productReference = 1B75CC132C84A90800124F62 /* iOS Camera AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B75CC1C2C84A90800124F62 /* iOS Camera AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B75CC2D2C84A90900124F62 /* Build configuration list for PBXNativeTarget "iOS Camera AppUITests" */;
+			buildPhases = (
+				1B75CC192C84A90800124F62 /* Sources */,
+				1B75CC1A2C84A90800124F62 /* Frameworks */,
+				1B75CC1B2C84A90800124F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B75CC1F2C84A90800124F62 /* PBXTargetDependency */,
+			);
+			name = "iOS Camera AppUITests";
+			productName = "iOS Camera AppUITests";
+			productReference = 1B75CC1D2C84A90800124F62 /* iOS Camera AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B75CBFA2C84A8D700124F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1B75CC012C84A8D800124F62 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1B75CC122C84A90800124F62 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1B75CC012C84A8D800124F62;
+					};
+					1B75CC1C2C84A90800124F62 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1B75CC012C84A8D800124F62;
+					};
+				};
+			};
+			buildConfigurationList = 1B75CBFD2C84A8D700124F62 /* Build configuration list for PBXProject "iOS Camera App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B75CBF92C84A8D700124F62;
+			productRefGroup = 1B75CC032C84A8D800124F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B75CC012C84A8D800124F62 /* iOS Camera App */,
+				1B75CC122C84A90800124F62 /* iOS Camera AppTests */,
+				1B75CC1C2C84A90800124F62 /* iOS Camera AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B75CC002C84A8D800124F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B75CC0E2C84A90200124F62 /* Preview Assets.xcassets in Resources */,
+				1B75CC0A2C84A90200124F62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75CC112C84A90800124F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75CC1B2C84A90800124F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B75CBFE2C84A8D800124F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B75CC082C84A8D800124F62 /* ContentView.swift in Sources */,
+				1B75CC062C84A8D800124F62 /* iOS_Camera_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75CC0F2C84A90800124F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B75CC182C84A90800124F62 /* iOS_Camera_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B75CC192C84A90800124F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B75CC222C84A90800124F62 /* iOS_Camera_AppUITests.swift in Sources */,
+				1B75CC242C84A90800124F62 /* iOS_Camera_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B75CC152C84A90800124F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B75CC012C84A8D800124F62 /* iOS Camera App */;
+			targetProxy = 1B75CC142C84A90800124F62 /* PBXContainerItemProxy */;
+		};
+		1B75CC1F2C84A90800124F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B75CC012C84A8D800124F62 /* iOS Camera App */;
+			targetProxy = 1B75CC1E2C84A90800124F62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B75CC252C84A90900124F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B75CC262C84A90900124F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1B75CC282C84A90900124F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS Camera App/iOS_Camera_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Camera App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuklansh.iOS-Camera-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B75CC292C84A90900124F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS Camera App/iOS_Camera_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Camera App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuklansh.iOS-Camera-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B75CC2B2C84A90900124F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuklansh.iOS-Camera-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Camera App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Camera App";
+			};
+			name = Debug;
+		};
+		1B75CC2C2C84A90900124F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuklansh.iOS-Camera-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Camera App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Camera App";
+			};
+			name = Release;
+		};
+		1B75CC2E2C84A90900124F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuklansh.iOS-Camera-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Camera App";
+			};
+			name = Debug;
+		};
+		1B75CC2F2C84A90900124F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shuklansh.iOS-Camera-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Camera App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B75CBFD2C84A8D700124F62 /* Build configuration list for PBXProject "iOS Camera App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B75CC252C84A90900124F62 /* Debug */,
+				1B75CC262C84A90900124F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B75CC272C84A90900124F62 /* Build configuration list for PBXNativeTarget "iOS Camera App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B75CC282C84A90900124F62 /* Debug */,
+				1B75CC292C84A90900124F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B75CC2A2C84A90900124F62 /* Build configuration list for PBXNativeTarget "iOS Camera AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B75CC2B2C84A90900124F62 /* Debug */,
+				1B75CC2C2C84A90900124F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B75CC2D2C84A90900124F62 /* Build configuration list for PBXNativeTarget "iOS Camera AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B75CC2E2C84A90900124F62 /* Debug */,
+				1B75CC2F2C84A90900124F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B75CBFA2C84A8D700124F62 /* Project object */;
+}
